@@ -1,0 +1,84 @@
+/* Add margin to the user list container */
+.user-list {
+  text-align: center;
+  margin: 20px auto; /* Center the container and add margin */
+  max-width: 800px; /* Adjust the maximum width as needed */
+  padding: 20px; /* Add padding for separation from edges */
+  border: 1px solid #ddd; /* Add a border around the container */
+}
+
+/* Style the "Create" button */
+.create-button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  display: block; /* Make the button a block element */
+  margin: 20px auto; /* Center the button within the container */
+}
+
+.create-button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the user table */
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add margin from the top */
+  border: 1px solid #ddd; /* Add a border to separate from other content */
+}
+
+/* Style the table header */
+.user-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd; /* Add a bottom border to separate from rows */
+}
+
+/* Style the table rows */
+.user-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+/* Style the "Edit" and "Delete" buttons */
+.actions {
+  text-align: center;
+  border-bottom: 1px solid #ddd; /* Add a bottom border to separate actions */
+  padding: 8px 0; /* Add vertical padding to actions */
+}
+
+/* Style the "Edit" button */
+.edit-button {
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px 15px;
+  font-size: 14px;
+  border: none;
+  margin-right: 5px; /* Add right margin for separation */
+}
+
+.edit-button:hover {
+  background-color: #218838;
+}
+
+/* Style the "Delete" button */
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}

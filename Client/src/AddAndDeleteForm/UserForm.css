@@ -1,0 +1,87 @@
+.heading{
+  text-align: center; 
+  background-color: #000000;
+  font-size: 46px;
+  color: #fff;
+  border-radius: 20px;
+
+}
+
+.notice{
+  color: #ee0c0c;
+  font-size: 16px;
+  text-align: center; 
+
+}
+.user-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 10px 20px 20px 20px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center; /* Center-align the form content */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center-align the form labels and input fields */
+}
+
+label {
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+
+select {
+  padding: 5px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  text-align: left; /* Left-align the input fields */
+}
+
+.dbutton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+.dbutton_2 {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #ff9933; /* Change the background color on hover */
+  }
+}
+
+
+.dbutton_3 {
+  background-color: #ff006f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+
+  &:hover {
+    background-color: #ff33be; /* Change the background color on hover */
+  }
+}
+
+button:hover {
+  background-color: #0056b3;
+}
